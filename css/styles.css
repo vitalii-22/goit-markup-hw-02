@@ -39,9 +39,12 @@ a {
   color: #404bbf;
 }
 
+.address-title {
+  font-style: normal;
+}
+
 .address-list {
   color: #434455;
-  font-style: normal;
   line-height: 1.5em;
   letter-spacing: 0.32px;
 }
@@ -59,7 +62,6 @@ a {
   color: #fff;
   text-align: center;
   font-size: 56px;
-  font-weight: 700;
   line-height: 1.07em;
   letter-spacing: 0.02em;
 }
@@ -67,7 +69,6 @@ a {
 .main-list-button {
   color: #fff;
   font-family: "Roboto", sans-serif;
-  border-radius: 4px;
   background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5em;
@@ -123,7 +124,6 @@ a {
 
 .position-list {
   color: #434455;
-  font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
