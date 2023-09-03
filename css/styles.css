@@ -14,7 +14,7 @@ a {
 
 .title-logo {
   color: #4d5ae5;
-  font-family: "Raleway", sans-seri;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17em;
@@ -28,6 +28,7 @@ a {
 
 .navigation-list a {
   color: #2e2f42;
+  font-style: normal;
   font-weight: 500;
   line-height: 1.5em;
   letter-spacing: 0.02em;
@@ -108,18 +109,21 @@ a {
 }
 
 .our-team-list {
-  color: #2e2f42;
-  background-color: #ffffff;
+  ackground-color: #ffffff;
   text-align: center;
+}
+
+.our-employees {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2em;
   letter-spacing: 0.02em;
 }
 
-.our-team-list p {
+.position-list {
   color: #434455;
-  text-align: center;
+  font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
@@ -127,8 +131,8 @@ a {
 .portfolio-title h2 {
   color: #2e2f42;
   text-align: center;
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 500;
   line-height: 1.11em;
   letter-spacing: 0.02em;
   text-transform: capitalize;
