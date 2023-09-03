@@ -1,5 +1,5 @@
 body {
-  font-family: roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #fff;
 }
@@ -14,10 +14,10 @@ a {
 
 .title-logo {
   color: #4d5ae5;
-  font-family: Raleway, sans-seri;
+  font-family: "Raleway", sans-seri;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.66em;
+  line-height: 1.17em;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -40,6 +40,7 @@ a {
 
 .address-list a {
   color: #434455;
+  font-style: normal;
   line-height: 1.5em;
   letter-spacing: 0.32px;
 }
@@ -64,11 +65,12 @@ a {
 
 .main-list-button {
   color: #fff;
+  font-family: "Roboto", sans-serif;
   border-radius: 4px;
   background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5em;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
@@ -77,7 +79,7 @@ a {
   background-color: #404bbf;
 }
 
-.features-list h3 {
+.features-list {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
@@ -85,7 +87,7 @@ a {
   letter-spacing: 0.02em;
 }
 
-.features-list p {
+.features-text {
   color: #434455;
   line-height: 1.5em;
   letter-spacing: 0.02em;
@@ -95,7 +97,7 @@ a {
   background-color: #f4f4fd;
 }
 
-.our-team-title h2 {
+.main-title {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
@@ -105,8 +107,9 @@ a {
   text-transform: capitalize;
 }
 
-.our-team-list h3 {
+.our-team-list {
   color: #2e2f42;
+  background-color: #ffffff;
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -139,7 +142,7 @@ a {
   letter-spacing: 0.02em;
 }
 
-.portfolio-title-list p {
+.portfolio-text {
   color: #434455;
   line-height: 1.5em;
   letter-spacing: 0.02em;
