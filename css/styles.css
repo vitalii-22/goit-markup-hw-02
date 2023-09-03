@@ -26,7 +26,7 @@ a {
   color: #2e2f42;
 }
 
-.navigation-list a {
+.navigation-list {
   color: #2e2f42;
   font-style: normal;
   font-weight: 500;
@@ -34,20 +34,20 @@ a {
   letter-spacing: 0.02em;
 }
 
-.navigation-list a:hover,
-.navigation-list a:focus {
+.navigation-list:hover,
+.navigation-list:focus {
   color: #404bbf;
 }
 
-.address-list a {
+.address-list {
   color: #434455;
   font-style: normal;
   line-height: 1.5em;
   letter-spacing: 0.32px;
 }
 
-.address-list a:hover,
-.address-list a:focus {
+.address-list:hover,
+.address-list:focus {
   color: #404bbf;
 }
 
@@ -151,7 +151,7 @@ a {
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
-footer {
+.footer-list {
   background: #2e2f42;
 }
 .footer-title {
